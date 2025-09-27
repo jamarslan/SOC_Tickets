@@ -1,0 +1,123 @@
+SOC Internship – Week 10 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK10-001
+Role: SOC Analyst Intern – Final Week (Interview Prep & Career Readiness)
+Assigned Date: 13-Oct-2025
+Due Date: 19-Oct-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Prepare for real-world SOC interviews by reviewing your 9-week projects, practicing technical & scenario-based questions, and finalizing a portfolio that demonstrates your skills.
+
+Task Description
+
+Portfolio Compilation
+
+Collect deliverables from Week 1 → Week 9.
+
+Organize into:
+
+Reports (PDFs)
+
+Rules/queries (text/PDF)
+
+Screenshots & MITRE layers
+
+Final capstone project
+
+Package into a professional SOC Internship Portfolio (zip + index document).
+
+Resume Enhancement
+
+Update your resume with:
+
+Internship duration & role
+
+Tools you used (Splunk, Security Onion, Wireshark, Wazuh, MITRE ATT&CK, MISP, etc.)
+
+Key achievements (example: “Built 12+ detection rules and conducted full incident investigations”)
+
+Keep it 1-page, achievement-focused.
+
+Mock Interview (Technical)
+
+Prepare for SOC Level 1–2 questions in categories:
+
+Alerts & Incidents (definitions, triage steps)
+
+SIEM & Logs (splunk queries, correlation logic)
+
+Network & Traffic (Wireshark analysis, protocols)
+
+Threat Intel (IoCs, enrichment, MITRE mapping)
+
+IR & Playbooks (containment, escalation, response steps)
+
+Example Q: “You see 100 failed logins followed by a success from a foreign IP. What do you do?”
+
+Mock Interview (Scenario)
+
+You’ll be given a short log snippet or traffic capture (I’ll provide).
+
+You’ll walk through: detection → hunting → escalation.
+
+This simulates a live SOC interview test.
+
+Final Reflection Report
+
+Write a 2-page reflection on your 10-week journey:
+
+Skills gained
+
+Tools mastered
+
+Strengths you developed
+
+Gaps you still want to improve
+
+Career direction (SOC vs. VAPT vs. IR)
+
+Tools & Resources Allowed
+
+Everything you used in Weeks 1–9.
+
+Resume editing tools (Word/Canva/Overleaf).
+
+Public SOC interview question banks for practice.
+
+Deliverables
+
+SOC Internship Portfolio (zip with index).
+
+Updated Resume (1 page).
+
+Mock Interview answers (written or recorded).
+
+Final Reflection Report (2 pages).
+
+Packaged as:
+
+SOC-WK10-[YourName].zip
+
+Evaluation Criteria
+
+Quality and completeness of internship portfolio.
+
+Resume relevance for SOC Analyst roles.
+
+Strength of technical/scenario interview answers.
+
+Professionalism and depth in reflection report.
+
+Mentor Notes
+
+Treat this as your real job application toolkit.
+
+By end of Week 10, you’ll have:
+
+A portfolio (proof of hands-on SOC work)
+
+A resume tailored for SOC roles
+
+Interview readiness (both theory + hands-on scenario practice)

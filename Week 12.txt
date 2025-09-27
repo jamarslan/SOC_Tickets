@@ -1,0 +1,90 @@
+🎓 SOC Internship Graduation Challenge – Mock SOC Interview Exam
+
+Exam ID: SOC-INT-2025-FINAL
+Duration: 90–120 minutes (self-paced)
+Format: Hands-on + Written (like real SOC assessments)
+
+Part 1 – Technical Hands-On (Logs + PCAP)
+
+You’ll be given:
+
+A short log dataset (auth + web logs)
+
+A pcap file snippet (simulating malicious traffic)
+
+Your Tasks:
+
+Identify suspicious activity in the logs (failed logins, privilege escalation, unusual access).
+
+Analyze the pcap in Wireshark and answer:
+
+Which protocol was used for data exfiltration?
+
+What destination IP/domain looks suspicious?
+
+Is there evidence of C2 beaconing?
+
+Correlate logs + traffic → build an attack timeline.
+
+Map the observed activity to MITRE ATT&CK techniques.
+
+Part 2 – Detection Engineering
+
+Write two SIEM queries/rules that would detect the observed activity in future.
+
+One for credential abuse/privilege escalation.
+
+One for data exfiltration over unusual channels.
+
+Part 3 – Incident Escalation & Reporting
+
+Draft an incident escalation ticket as if sending to L2/IR. Include:
+
+Incident summary (1–2 sentences)
+
+Evidence (log lines, pcap findings, IoCs)
+
+Impact (system/user affected)
+
+Recommended containment action
+
+Part 4 – Oral/Behavioral Mock Q&A
+
+(Practice answering these out loud as if in an interview)
+
+Walk me through how you investigate a phishing email alert.
+
+What’s the difference between SIEM detection and threat hunting?
+
+How do you prioritize multiple alerts during a shift?
+
+Tell me about a time (from this internship) when you correlated multiple events into one incident.
+
+If you don’t know how to investigate an alert, what do you do?
+
+Deliverables
+
+Submit as:
+
+SOC-GRAD-[YourName].zip
+
+
+Containing:
+
+Annotated log analysis (PDF/Word)
+
+Wireshark screenshots + findings
+
+2 detection rules/queries
+
+Escalation ticket (PDF)
+
+MITRE ATT&CK mapping PDF
+
+Mentor Notes
+
+This is the capstone hiring simulation: hands-on detection, correlation, reporting, and communication.
+
+If you complete this, you’ll be ready to show real-world SOC skills in interviews.
+
+After this, we’ll shift into resume polishing + interview coaching until you land a role.

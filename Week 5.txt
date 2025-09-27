@@ -1,0 +1,109 @@
+SOC Internship – Week 5 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK5-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 08-Sep-2025
+Due Date: 14-Sep-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Enhance SOC capabilities by practicing threat hunting, integrating threat intelligence (TI) feeds, and applying IoCs into your SOC platform for proactive detection.
+
+Task Description
+
+Threat Hunting Basics
+
+Research and define the difference between detection vs. hunting.
+
+Create a checklist of threat hunting hypotheses (e.g., abnormal login times, beaconing traffic, suspicious PowerShell commands).
+
+Hunt in Logs & Traffic
+
+Use your SIEM (Wazuh / Splunk / Security Onion) to run manual hunts:
+
+Search for abnormal login behavior (e.g., multiple logins from foreign IPs).
+
+Look for repeated beaconing (same interval connections).
+
+Identify suspicious process execution (Sysmon logs if available).
+
+Save queries and screenshots.
+
+Threat Intelligence Integration
+
+Use one open-source TI platform:
+
+MISP (preferred)
+
+Or external APIs like VirusTotal, AbuseIPDB, urlscan.io
+
+Collect at least 5 IoCs (IP, domain, hash, or URL).
+
+Cross-check those IoCs in your SIEM logs to see if they appear in your environment.
+
+MITRE ATT&CK Mapping
+
+Map at least 2 techniques from your hunting exercise to MITRE ATT&CK (example: PowerShell execution → Execution tactic).
+
+Export layer as PDF.
+
+Threat Hunting Report
+
+Write a 3–4 page report including:
+
+Hunting hypotheses and methods used.
+
+Queries and findings with screenshots.
+
+IoCs collected + enrichment details.
+
+MITRE mapping of observed techniques.
+
+Recommendations for detection improvements.
+
+Tools & Resources Allowed
+
+SIEM Tools: Splunk, Wazuh, Elastic, Security Onion
+
+Threat Intel: MISP, VirusTotal, urlscan.io, AbuseIPDB
+
+Traffic/Logs: Wireshark, Zeek logs, Sysmon logs
+
+MITRE ATT&CK Navigator for mapping
+
+Deliverables
+
+Threat Hunting Queries (saved in PDF/Word).
+
+Screenshots of hunts in SIEM/logs.
+
+List of IoCs (with enrichment details from TI tools).
+
+MITRE ATT&CK layer PDF.
+
+Threat Hunting Report (3–4 pages).
+
+Packaged as:
+
+SOC-WK5-[YourName].zip
+
+Evaluation Criteria
+
+Clarity in explaining hypotheses vs. detection.
+
+Correctness and creativity in hunting queries.
+
+Successful IoC integration and enrichment.
+
+Proper MITRE mapping of at least 2 techniques.
+
+Quality and professionalism of final hunting report.
+
+Mentor Notes
+
+Think like an attacker hiding in logs. Don’t wait for alerts — go hunt for anomalies.
+
+Show how TI feeds make hunting stronger (turn unknown IP → malicious IP with context).
+
+Document both successful and unsuccessful hunts (real analysts often get “no hits”).

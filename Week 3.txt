@@ -1,0 +1,110 @@
+##  SOC Internship – Week 3 Task Ticket 
+
+ Ticket ID:  SOC-INT-2025-WK3-001
+ Role:  SOC Analyst Intern – Remote
+ Assigned Date:  25-Aug-2025
+ Due Date:  31-Aug-2025
+ Reviewer:  SOC Lead (Mentor)
+
+---
+
+###  Objective 
+
+Focus on  incident escalation ,  alert triage , and  advanced threat detection  using  SIEM correlation rules to detect complex attack patterns.
+
+---
+
+###  Task Description 
+
+1.  Review MITRE ATT&CK Techniques 
+
+   * Research  two new techniques :
+
+     *  Privilege Escalation  (e.g., Sudo Caching, Exploiting Trusted Relationships).
+     *  Exfiltration  (e.g., Exfiltration Over Command and Control Channel).
+   * Create a  MITRE ATT\&CK mapping  for both techniques.
+
+2.  Advanced SIEM Rule Creation & Correlation 
+
+   * Use your SIEM tool to create  two advanced correlation rules :
+
+     * One rule for  Privilege Escalation  (e.g., exploitation of sudo or trusted relationships).
+     * One rule for  Exfiltration  (e.g., data exfiltration over C2).
+   * For each rule, specify the  log sources ,  conditions , and  expected alerts 
+   * Simulate these events using  Security Onion  or similar pcap files.
+   * Test the rules using  sample logs  (you can use  open-source logs  or  Security Onion  if needed).
+
+3.  Incident Escalation Workflow 
+
+   * Review the  escalation process  and  reporting formats  used in SOC.
+   * Based on your  SIEM alert findings , create an  incident escalation template  that would be used for reporting to senior analysts or IR teams.
+   * Practice  escalating an incident  based on your SIEM findings and include the necessary details (e.g., evidence, impact, system involved).
+
+4.  Traffic Analysis & Correlation 
+
+   * Use  Wireshark  or another traffic analysis tool to capture  advanced suspicious activity .
+   * Identify signs of  privilege escalation  or  data exfiltration  (such as abnormal shell activity or large data transfers over unusual ports).
+   * Take  screenshots of your findings  from your analysis.
+
+5.  Documentation & Reporting 
+
+   * Write a  2-page report  combining:
+
+     * MITRE ATT\&CK mappings (Privilege Escalation & Exfiltration).
+     * SIEM rules with detailed explanations.
+     * Traffic analysis findings and correlation with attack techniques.
+     * Incident escalation template and recommended actions.
+
+---
+
+###  Tools & Resources Allowed 
+
+*  SIEM tools : Splunk, Wazuh, Elastic, Security Onion (or any other preferred SIEM tool).
+*  Traffic Analysis : Wireshark, Security Onion, or other traffic capture tools.
+*  Resources : MITRE ATT\&CK Framework, open-source logs, public pcap repositories.
+
+---
+
+###  Deliverables 
+
+*  MITRE Layer PDF  with Privilege Escalation & Exfiltration techniques mapped.
+*  2 Advanced Detection Rules  for SIEM (Privilege Escalation and Exfiltration).
+*  Screenshots  of traffic analysis findings.
+*  Incident Escalation Template .
+*  2-page report  combining:
+
+  * MITRE mappings.
+  * Rule explanations.
+  * Traffic analysis findings.
+
+---
+
+###  Submission Method 
+
+* Submit all files in a  zipped folder  named:
+  `SOC-WK3-[YourName].zip`
+* Upload via the internship folder or email.
+
+---
+
+###  Evaluation Criteria 
+
+* Correctly mapped MITRE ATT\&CK techniques.
+* Effective and correctly implemented SIEM correlation rules.
+* Accurate traffic analysis and correlation with attack techniques.
+* Clarity and completeness of report and incident escalation template.
+* Timely submission.
+
+---
+
+ Mentor Notes: 
+
+* Focus on  creating rules that are actionable  and testable in real-world environments.
+* Understand how to correlate  multiple logs/events  to catch more complex attack patterns.
+* Practice using real  escalation templates  to communicate effectively with senior teams.
+----
+index="de_logs" 
+ACTION="FILE_UPLOAD" AND (DEST_IP="45.77.123.89" OR DEST_IP="91.233.45.12" OR DEST_IP="203.0.113.99")
+| table _time, USER, FILE, DEST_IP, PROTOCOL, STATUS
+| stats count by USER, FILE, DEST_IP
+| where count >= 1

@@ -1,0 +1,117 @@
+SOC Internship – Week 6 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK6-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 15-Sep-2025
+Due Date: 21-Sep-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Simulate a complete SOC-to-IR handoff: from alert detection, to incident triage, to containment recommendation. This week emphasizes response playbooks and forensics basics.
+
+Task Description
+
+Review Incident Response Lifecycle
+
+Study NIST 800-61 IR phases: Preparation, Detection, Containment, Eradication, Recovery, Lessons Learned.
+
+Write a 1-page summary of how SOC fits into each phase.
+
+Playbook Creation
+
+Build 2 incident response playbooks (flowcharts or documents):
+
+Ransomware outbreak
+
+Phishing email leading to credential theft
+
+Each playbook must include:
+
+SOC detection step
+
+Escalation path
+
+Containment action
+
+IR/Recovery step
+
+Log & Traffic Analysis – Forensics Angle
+
+Using Security Onion / Wireshark, analyze logs & traffic for possible compromise:
+
+Identify a phishing delivery (email logs or malicious HTTP).
+
+Track post-compromise activity (PowerShell, data staging, lateral movement).
+
+Take at least 3 forensic-style screenshots (logs + packets).
+
+Containment Simulation
+
+Pick one incident (phishing OR ransomware).
+
+Write a containment recommendation:
+
+Isolate system? Block IP? Reset credentials? Patch software?
+
+Justify why that containment is effective.
+
+Reporting & Handoff
+
+Create a professional Incident Response Report (3–4 pages) including:
+
+Timeline of the attack
+
+Indicators of Compromise (IoCs)
+
+Root cause analysis (where detection could improve)
+
+Containment & mitigation recommendations
+
+Lessons learned (what SOC should adjust for future)
+
+Tools & Resources Allowed
+
+SIEM & Traffic: Security Onion, Wazuh, Splunk, Wireshark, Zeek
+
+Threat Intel: VirusTotal, MISP, urlscan.io
+
+Playbook Creation: Draw.io, Lucidchart, PowerPoint, or Word
+
+Reference: NIST 800-61, MITRE ATT&CK for mapping
+
+Deliverables
+
+1-page SOC role in IR lifecycle.
+
+2 Incident Playbooks (ransomware, phishing).
+
+Traffic/Log screenshots (3+) showing forensic analysis.
+
+Containment recommendation (short doc).
+
+Incident Response Report (3–4 pages).
+
+Packaged as:
+
+SOC-WK6-[YourName].zip
+
+Evaluation Criteria
+
+Correct understanding of SOC in IR lifecycle.
+
+Clear and realistic incident playbooks.
+
+Accuracy in forensic-style log/traffic analysis.
+
+Strong, justified containment recommendation.
+
+Professional, structured IR report.
+
+Mentor Notes
+
+This week is a bridge between SOC and IR teams. Show that you can not only detect, but also advise on response.
+
+Reports should be executive-readable (SOC → CISO handoff).
+
+This is where you show maturity as a SOC analyst — not just reacting to alerts, but contributing to resilience.

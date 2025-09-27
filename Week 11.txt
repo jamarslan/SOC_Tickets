@@ -1,0 +1,68 @@
+Post-Internship Phase (After Week 10)
+1. Portfolio & Resume Deployment
+
+Upload your SOC Internship Portfolio (from Weeks 1–9 projects + Week 9 capstone).
+
+Finalize your 1-page resume with:
+
+Tools used: Splunk, Wazuh, Wireshark, Security Onion, Zeek, Suricata, MITRE ATT&CK, MISP.
+
+Achievements: “Built and tested 15+ SIEM rules, performed full incident response investigations, conducted red vs blue simulations.”
+
+Post portfolio on GitHub / personal site (redact sensitive info, but showcase methodology).
+
+2. Mock SOC Analyst Interview Prep (Advanced)
+
+I’ll give you:
+
+Scenario-based challenges (short log snippets / pcap traces).
+
+Behavioral questions (teamwork, escalation, stress-handling).
+
+Technical drill (write a Splunk/Wazuh query, explain packet captures, detect anomalies).
+
+3. Certifications to Pursue (Optional, but Strong Boost)
+
+Beginner-friendly SOC certs:
+
+CompTIA Security+
+
+Splunk Core Certified User
+
+Wazuh/SIEM Hands-on labs (free)
+
+Advanced:
+
+CySA+ (Blue Team)
+
+eJPT (Pentesting basics, if you want hybrid SOC + VAPT)
+
+SANS SEC511 (if aiming for high-end SOC roles)
+
+4. Job Application Strategy
+
+Apply to:
+
+SOC Analyst L1/L2 roles
+
+Cybersecurity Operations internships (if you want a bridge)
+
+Blue Team Apprentice programs
+
+Emphasize hands-on projects in interviews — recruiters love proof of lab work.
+
+5. Long-Term Roadmap (Beyond Internship)
+
+First 6 months in job: focus on becoming very fast at triage & escalation.
+
+1 year in SOC: build niche in Threat Hunting or Incident Response.
+
+After 2+ years: choose specialization — Threat Intel, IR, Purple Team, or pivot into VAPT.
+
+✅ From here, we can:
+
+Start mock interviews with real log/pcap cases.
+
+Polish your resume + LinkedIn profile.
+
+Build a public project portfolio to attract recruiters.

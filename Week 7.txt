@@ -1,0 +1,105 @@
+SOC Internship – Week 7 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK7-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 22-Sep-2025
+Due Date: 28-Sep-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Practice adversary emulation using MITRE ATT&CK techniques, then build detections and hunts against those activities in your SOC tools.
+
+Task Description
+
+Adversary Technique Simulation
+
+Pick two MITRE ATT&CK techniques:
+
+Example: T1059 – Command and Scripting (PowerShell)
+
+Example: T1041 – Exfiltration over C2 Channel
+
+Simulate them in a controlled lab environment (use a test Windows/Linux VM).
+
+Document commands or tools used (only in lab).
+
+Blue Team Detection Rules
+
+In Wazuh / Splunk / Security Onion, create rules/queries to detect your simulated activities.
+
+Example queries:
+
+Suspicious PowerShell execution (EncodedCommand)
+
+Large outbound traffic to unknown IPs (Zeek/Suricata logs)
+
+Threat Hunting Validation
+
+Run a manual hunt to confirm detections.
+
+Save queries and screenshots showing detection success.
+
+MITRE ATT&CK Mapping
+
+Map both simulated techniques to MITRE Navigator.
+
+Show coverage: which tactics you tested, which you detected.
+
+Red vs. Blue Report
+
+Write a 3-page report including:
+
+Red Team actions (simulation commands & attack flow).
+
+Blue Team actions (rules, hunts, alerts).
+
+MITRE ATT&CK mapping layer.
+
+Gaps in detection (what you couldn’t catch).
+
+Recommendations for improving detection.
+
+Tools & Resources Allowed
+
+Red Team (Simulated Attacks): PowerShell (Windows), Bash (Linux), Metasploit (optional, lab only)
+
+Blue Team (Defense): Wazuh, Splunk, Security Onion, Zeek, Suricata
+
+Mapping: MITRE ATT&CK Navigator
+
+Docs: Word, PowerPoint, or PDF for reports
+
+Deliverables
+
+Attack simulation documentation (commands, screenshots).
+
+Detection rules/queries with screenshots.
+
+MITRE ATT&CK PDF layer.
+
+Red vs. Blue report (3 pages).
+
+Package as:
+
+SOC-WK7-[YourName].zip
+
+Evaluation Criteria
+
+Correct simulation of 2 MITRE techniques.
+
+Working detection rules/queries.
+
+Clear hunting validation with screenshots.
+
+MITRE ATT&CK mapping accuracy.
+
+Professional Red vs. Blue report.
+
+Mentor Notes
+
+This week builds practical detection engineering skills.
+
+Be careful: keep attack simulation only in a safe VM lab, never on production systems.
+
+Show that you can think like both attacker and defender.

@@ -1,0 +1,111 @@
+SOC Internship – Week 8 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK8-001
+Role: SOC Analyst Intern – Remote (Purple-Team Exercise)
+Assigned Date: 29-Sep-2025
+Due Date: 05-Oct-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Perform a Purple Team exercise where you (or a partner/simulated script) execute selected attack techniques in a lab and you build/validate detections, block/mitigation steps, and measure detection coverage & mean time to detect (MTTD).
+
+Task Description
+
+Plan the Exercise
+
+Choose 3 attack techniques (from MITRE ATT&CK) spanning Initial Access → Execution → Exfiltration.
+
+Define success criteria for each technique (e.g., detection alert fired within X minutes, block applied).
+
+Prepare a short attack plan (commands/tools) to run in your isolated lab VM.
+
+Execute Attacks (Lab Only)
+
+Run the attacks in a controlled VM environment (keep all activity offline or in lab network).
+
+Record timestamps for: attack start, detection alert(s), mitigation action.
+
+Detection & Response
+
+Ensure your SIEM (Wazuh/Splunk/Security Onion) has detection rules enabled.
+
+If a technique was undetected, create or tune a rule to detect it.
+
+Apply an appropriate mitigation (block IP, disable account, quarantine host) and record the time of action.
+
+Measure & Record Metrics
+
+For each technique, record:
+
+Whether detection occurred (Yes/No)
+
+Time to detect (seconds/minutes) — MTTD
+
+Time to mitigate (seconds/minutes) — MTTR (time-to-remediate)
+
+False positives observed (if any)
+
+Present a short table of results.
+
+Purple-Team Report
+
+Produce a 3-page report including:
+
+Attack plan & MITRE ATT&CK mapping (techniques used)
+
+Detection rules used/created (with logic)
+
+Mitigation actions taken and rationale
+
+Metrics table (MTTD/MTTR) and lessons learned
+
+Prioritized recommendations to improve detection or response
+
+Tools & Resources Allowed
+
+Attack simulation: PowerShell, Bash scripts, or Metasploit in lab VMs (never on production).
+
+Detection/Logging: Security Onion (Zeek/Suricata), Wazuh, Splunk, Elastic.
+
+Packet analysis: Wireshark / Zeek logs.
+
+Case mgmt / reporting: TheHive / MISP / Word / Excel / PDF.
+
+Mapping: MITRE ATT&CK Navigator.
+
+Deliverables
+
+Attack plan doc (commands, VMs used).
+
+PCAP(s) or logs showing activity.
+
+Detection rules created/tuned (file or query text).
+
+Metrics table (MTTD / MTTR per technique).
+
+Purple-Team Report (3 pages).
+
+Package as:
+
+SOC-WK8-[YourName].zip
+
+Evaluation Criteria
+
+Appropriate and safe attack execution limited to lab VMs.
+
+Detection coverage and effectiveness of created/tuned rules.
+
+Clear measurement of detection & mitigation metrics.
+
+Quality of remediation recommended & executed.
+
+Clarity, accuracy and professionalism of final report.
+
+Mentor Notes
+
+Keep everything contained to lab VMs. Save logs/pcaps for verification.
+
+Aim for one detection improvement per technique (create/tune rule).
+
+Use this exercise to show measurable improvement — recruiters love MTTD/MTTR numbers.

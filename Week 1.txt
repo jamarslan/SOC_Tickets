@@ -1,0 +1,74 @@
+SOC Internship – Week 1 Task Ticket
+Ticket ID: SOC-INT-2025-WK1-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 11-Aug-2025
+Due Date: 17-Aug-2025
+Reviewer: SOC Lead (Mentor)
+---------------------------------------------------------------------------
+Objective
+Learn SOC workflow, map attack techniques in MITRE ATT&CK, and perform basic packet analysis using Wireshark — including analyzing a pre-captured malicious pcap to simulate an incident investigation.
+---------------------------------------------------------------------------
+Task Description
+1. SOC Workflow & MITRE ATT&CK
+- Research the SOC alert lifecycle (Alert → Investigation → Incident → Escalation → Closure).
+- Open MITRE ATT&CK Navigator (https://mitre-attack.github.io/attack-navigator/enterprise/).
+- Highlight at least three techniques:
+	- Brute Force
+	- Phishing
+	- Command and Control (C2)
+- Save your layer and export it as PDF.
+
+2. Wireshark Fundamentals
+- Install Wireshark (latest version).
+- Capture your own network traffic and identify:
+	- A TCP 3-way handshake.
+	- A DNS query and corresponding response.
+	- An HTTP GET or POST request (with request headers).
+- Save the capture as .pcap.
+
+3. Mini Challenge – Malicious Traffic Analysis
+- Download the provided file:
+	malicious_traffic_week1.pcap (example from a safe, public training dataset).
+- Open in Wireshark and identify:
+	- Suspicious DNS queries (possible malware domains).
+	- Outbound connections to unusual IPs.
+	- Any sign of a file download or C2 beaconing.
+- Take screenshots of at least 3 suspicious events.
+4. Documentation
+- Combine findings from your own capture and the malicious pcap into a 1–2 page PDF report.
+- Include:
+	- Observations from normal vs malicious traffic.
+	- Why these events matter in SOC investigations.
+	- How they map to MITRE ATT&CK techniques.
+---------------------------------------------------------------------------
+Tools & Resources Allowed
+- MITRE ATT&CK Navigator
+- Wireshark
+- Provided malicious pcap (safe training data)
+- Internet for protocol/indicator research
+---------------------------------------------------------------------------
+Deliverables
+- MITRE Layer PDF with highlighted techniques.
+- Screenshots:
+	- At least 3 from your own capture.
+	- At least 3 from the malicious pcap.
+- PCAP files (your capture + malicious).
+- 1–2 page PDF report with:
+	- Findings.
+	- MITRE mapping.
+	- Short SOC relevance explanation.
+---------------------------------------------------------------------------
+Submission Method
+- Zip all files into:
+	SOC-WK1-[YourName].zip
+- Submit via internship shared folder or email.
+---------------------------------------------------------------------------
+Evaluation Criteria
+- Correct identification of events.
+- Accurate MITRE mapping.
+- Clear and concise documentation.
+- Ability to distinguish normal vs malicious patterns.
+- On-time submission.
+---------------------------------------------------------------------------
+
+

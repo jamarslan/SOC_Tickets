@@ -1,0 +1,117 @@
+SOC Internship – Week 4 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK4-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 01-Sep-2025
+Due Date: 07-Sep-2025
+Reviewer: SOC Lead (Mentor)
+--------------------------------------------
+Objective
+
+Simulate a real SOC analyst workflow by monitoring alerts, correlating multiple log sources, escalating incidents, and creating professional incident response documentation.
+------------------------------------------
+Task Description
+
+1. SOC Monitoring Simulation
+
+Use Security Onion / Wazuh / Splunk / ELK to monitor logs from multiple sources:
+
+Firewall
+
+Proxy
+
+Authentication servers
+
+Endpoint logs (Sysmon or Windows Event Logs)
+
+Identify alerts that may be related or part of the same attack chain.
+
+2. Multi-Alert Correlation
+
+Detect patterns where multiple alerts indicate a single complex attack.
+
+Example: Brute force → Successful login → Privilege escalation → Suspicious data transfer
+
+Document how you correlated these alerts.
+
+3. Incident Response Simulation
+
+Pick one complex incident from your monitoring exercise.
+
+Investigate all related alerts and log sources.
+
+Document:
+
+Timeline of the attack
+
+IP addresses and systems affected
+
+Indicators of Compromise (IoCs)
+
+Suggested containment and mitigation steps
+
+4. Traffic Analysis
+
+Use Wireshark or Security Onion to analyze packet captures relevant to the incident.
+
+Identify suspicious traffic (e.g., data exfiltration, C2 communication, abnormal connections).
+
+Take screenshots for documentation.
+
+5. Incident Report & Escalation
+
+Write a professional incident report including:
+
+Description of attack
+
+Timeline and correlated alerts
+
+IoCs and traffic evidence
+
+Recommended escalation or containment actions
+
+Create an escalation template suitable for L2 or IR team handoff.
+
+6. Tools & Resources Allowed
+
+SIEM Tools: Splunk, Wazuh, ELK, Security Onion
+
+Traffic Analysis: Wireshark, Zeek (Security Onion)
+
+Incident Management: TheHive, MISP, Excel / Word for documentation
+
+Resources: MITRE ATT&CK Framework, public logs, and pcap repositories
+
+7. Deliverables
+
+Correlated Alert Map showing which alerts are related.
+
+Traffic Analysis Screenshots (at least 3) with annotations.
+
+Incident Response Report (2–3 pages).
+
+Incident Escalation Template.
+
+All files packaged as:
+
+SOC-WK4-[YourName].zip
+
+8. Evaluation Criteria
+
+Correct multi-alert correlation demonstrating attack understanding
+
+Accurate traffic analysis supporting findings
+
+Clarity, completeness, and professionalism of incident report
+
+Proper escalation documentation
+
+Timely submission
+
+9. Mentor Notes
+
+Focus on understanding how multiple alerts can be part of a single attack chain.
+
+Make your reports concise and evidence-backed, similar to what a SOC L1 would submit to senior analysts.
+
+This week simulates real-world SOC work, preparing you for live monitoring tasks and IR workflows.

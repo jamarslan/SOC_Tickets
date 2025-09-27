@@ -1,0 +1,113 @@
+SOC Internship – Week 9 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK9-001
+Role: SOC Analyst Intern – Remote (Capstone Project)
+Assigned Date: 06-Oct-2025
+Due Date: 12-Oct-2025
+Reviewer: SOC Lead (Mentor)
+
+Objective
+
+Simulate a complete end-to-end attack investigation: from initial compromise through escalation to data exfiltration, applying SOC skills across monitoring, detection, hunting, escalation, and reporting.
+
+Task Description
+
+Attack Scenario Design
+
+Define an attack chain using at least 4 MITRE ATT&CK techniques spanning different tactics.
+
+Example chain: Phishing (Initial Access) → Credential Dumping (Credential Access) → Privilege Escalation → Exfiltration Over HTTP.
+
+Document your attack path plan before simulation.
+
+Simulate Attack in Lab
+
+Execute your chosen chain in a controlled VM setup.
+
+Record activity timestamps (each step of attack).
+
+Capture logs/traffic (Wireshark, Zeek, Wazuh, Suricata).
+
+Detection & Hunting
+
+Use your SIEM (Splunk / Wazuh / Security Onion) to detect suspicious activity.
+
+Create at least 3 custom detection rules/queries aligned with your attack techniques.
+
+Perform threat hunting queries to uncover hidden activity.
+
+Take screenshots of detections and queries.
+
+Incident Response Simulation
+
+Build an incident timeline from compromise → escalation → exfiltration.
+
+Identify IoCs (IPs, domains, hashes, commands).
+
+Recommend containment actions at each stage (e.g., block IP, disable account).
+
+Simulate escalation to L2/IR team with proper ticket documentation.
+
+Capstone Report
+
+Write a 5–6 page professional report including:
+
+Attack chain design (with MITRE ATT&CK mapping)
+
+Detection methods and custom rules created
+
+Hunting queries and findings
+
+Incident timeline & IoCs
+
+Recommended containment & recovery
+
+Lessons learned & improvements for SOC
+
+Tools & Resources Allowed
+
+Attack simulation: PowerShell, Bash, Metasploit, Atomic Red Team (safe, lab only).
+
+Detection/Monitoring: Wazuh, Splunk, Security Onion, Elastic.
+
+Traffic Analysis: Wireshark, Zeek, Suricata.
+
+Case Mgmt & TI: TheHive, MISP, VirusTotal.
+
+Mapping: MITRE ATT&CK Navigator.
+
+Deliverables
+
+Attack path plan document.
+
+PCAPs / logs from simulation.
+
+3+ custom detection rules/queries.
+
+Screenshots of detections & hunts.
+
+Capstone Report (5–6 pages).
+
+All packaged as:
+
+SOC-WK9-[YourName].zip
+
+Evaluation Criteria
+
+Creativity & completeness of attack chain.
+
+Accuracy and effectiveness of detection rules.
+
+Depth of hunting queries and IoC collection.
+
+Quality of incident timeline & escalation.
+
+Professionalism and clarity of capstone report.
+
+Mentor Notes
+
+This week simulates real SOC work under attack — treat it like a real incident investigation.
+
+Reports should be executive-friendly, as if you’re presenting to SOC Manager / CISO.
+
+This is your portfolio piece to showcase in interviews — proof you can handle SOC workflow end-to-end.

@@ -1,0 +1,81 @@
+SOC Internship – Week 2 Task Ticket
+
+Ticket ID: SOC-INT-2025-WK2-001
+Role: SOC Analyst Intern – Remote
+Assigned Date: 18-Aug-2025
+Due Date: 24-Aug-2025
+Reviewer: SOC Lead (Mentor)
+--------------------------------------------------------------------------
+Objective
+
+Learn to build and fine-tune detection rules for common attack techniques using a SIEM tool (Splunk/Wazuh/Elastic). Understand how to correlate logs and detect abnormal activity based on attack patterns.
+--------------------------------------------------------------------------
+Task Description
+1. Review MITRE ATT&CK Techniques
+Research two new techniques:
+Initial Access (e.g., Phishing, Exploit Public-Facing App).
+Persistence (e.g., Web Shell, Scheduled Task).
+Create a simple MITRE ATT&CK mapping for both techniques.
+2. SIEM Rule Creation
+Install or use a SIEM tool (e.g., Wazuh or Splunk).
+Based on your MITRE research, create at least two detection rules:
+One rule for Initial Access (e.g., Phishing).
+One rule for Persistence (e.g., Scheduled Task).
+For each rule, specify the log sources (e.g., authentication logs, HTTP logs, sysmon), conditions, and alerts.
+Test these rules using sample logs (you can use open-source logs or Security Onion if needed).
+3. Traffic Analysis & Correlation
+Analyze the traffic captured from Wireshark or use a new malicious pcap sample.
+Correlate the events to identify any signs of persistence or initial access based on your MITRE mapping.
+Take screenshots of your findings from Wireshark or other traffic analysis tools.
+
+4. Documentation & Reporting
+Document the SIEM rules created and justifications for each.
+Explain how these rules correlate with the MITRE techniques and why they are effective for SOC use cases.
+Submit a 2-page report combining:
+MITRE ATT&CK mappings (for both techniques).
+SIEM rules with explanations.
+Traffic analysis findings.
+--------------------------------------------------------------------------
+Tools & Resources Allowed
+
+SIEM tools: Splunk, Wazuh, Elastic (or any other preferred SIEM tool).
+
+Traffic Analysis: Wireshark, Security Onion, or any malicious pcap.
+
+Resources: MITRE ATT&CK Framework, open-source logs, public pcap repositories.
+--------------------------------------------------------------------------
+Deliverables
+
+MITRE Layer PDF with two new techniques mapped.
+
+2 Detection Rules for SIEM (one for Initial Access, one for Persistence).
+
+Screenshots of traffic analysis findings.
+
+2-page report including:
+
+MITRE mappings.
+
+Rule explanations.
+
+Analysis of traffic.
+--------------------------------------------------------------------------
+Submission Method
+
+Submit all files in a zipped folder named:
+SOC-WK2-[YourName].zip
+
+Upload via the internship folder or email.
+--------------------------------------------------------------------------
+Evaluation Criteria
+
+Correctly mapped MITRE ATT&CK techniques.
+
+Effective and correctly implemented SIEM detection rules.
+
+Accurate traffic analysis and correlation.
+
+Clarity and completeness of report and screenshots.
+
+Timely submission.
+--------------------------------------------------------------------------
