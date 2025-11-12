@@ -1,1 +1,1 @@
-It contains 12 tickets to learn SOC.
+It contains 10 tickets to learn practical SOC.
